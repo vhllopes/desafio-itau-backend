@@ -16,4 +16,24 @@ public class EstatisticaResponse {
         this.min = min;
         this.max = max;
     }
+
+    public long getCount() {
+        return count;
+    }
+
+    public double getSum() {
+        return sum;
+    }
+
+    public double getAvg() {
+        return avg;
+    }
+
+    public double getMin() {
+        return min;
+    }
+
+    public double getMax() {
+        return max;
+    }
 }
